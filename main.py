@@ -9,7 +9,7 @@ from telegram.ext import Application, ContextTypes, MessageHandler, filters
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-KEYWORDS = ["urgent", "refund", "help", "chlen", "penis", "say", "sexy", "gex", "return policy"]
+KEYWORDS = ["urgent", "refund", "help", "return policy"]
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
